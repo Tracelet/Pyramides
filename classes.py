@@ -55,7 +55,6 @@ class Pyramid:
 
 
 if __name__ == '__main__':
-    print(math.log(64, 4))
     p = Pyramid()
     p.read()
     iter = int(math.log(p.N, 4) - 1)
